@@ -26,9 +26,7 @@ import { DisplayPlantComponent } from './display-plant/display-plant.component';
     AppComponent,
     AboutComponent,
     ProductComponent,
-
-    HomeComponent
-
+    HomeComponent,
     DisplayPlantComponent
 
   ],
