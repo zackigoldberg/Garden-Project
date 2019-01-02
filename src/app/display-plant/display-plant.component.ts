@@ -1,6 +1,5 @@
 import { Component, OnInit , Input } from '@angular/core';
 import { platformCoreDynamicTesting } from '@angular/platform-browser-dynamic/testing/src/platform_core_dynamic_testing';
-
 @Component({
   selector: 'app-display-plant',
   templateUrl: './display-plant.component.html',
@@ -16,7 +15,8 @@ export class DisplayPlantComponent implements OnInit {
   get plants() : any {
     return this.botanicals
   }
-  set plants(foliage: any) {
-    this.botanicals = (foliage)
+
+  set plants(plant: any) {
+    this.botanicals = (plant)
   }
 }

@@ -13,7 +13,7 @@ import { HomeComponent } from './home/home.component';
 
 import { from } from 'rxjs';
 
-const appRoutes: Routes = [
+const routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent},
   { path: 'product', component: ProductComponent},
@@ -32,7 +32,7 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot(
-      appRoutes
+      routes
     )
   ],
   providers: [],
