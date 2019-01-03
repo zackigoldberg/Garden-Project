@@ -19,7 +19,7 @@ export class ProductComponent implements OnInit {
     this.onFindPlants();
   }
   
-onFindPlants() : void {
+onFindPlants(): void {
     this._dbService.getPlants().subscribe(Plant => {
       this.plants=Plant;
     })

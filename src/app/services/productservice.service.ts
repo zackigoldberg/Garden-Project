@@ -17,6 +17,7 @@ export class DatabaseService {
 
   private _dbUrl = 'https://efa-gardenapp-backend.herokuapp.com/api/product'
   constructor(private _http: HttpClient) { }
+  
   getPlants(): Observable<Plant[]> {
     return this._http.get<Plant[]>(this._dbUrl);
   }
