@@ -1,0 +1,11 @@
+.productItem{
+    width: 275px;
+    margin: 25px;
+    position: relative;
+    display: inline-block;
+    clear: left;
+    background-color: rgba(36, 58, 3, .5);
+    background-position: relative;
+    text-align: center;
+    padding: 10px; 
+}
