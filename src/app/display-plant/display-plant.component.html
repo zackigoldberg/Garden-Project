@@ -1,10 +1,12 @@
-<div>
+<div class="productItem">
   <div>
     <div>
-      <h2><i>{{plants.product_name}}</i></h2>
+        <h2><i>{{plants.product_name}}</i></h2>
       <p>{{plants.product_description}}</p>
       <p>{{plants.product_price}}</p>
-      <img src={{plants.product_image}}>     
+      <img src={{plants.product_image}}>
+      <button value={{plants.id}} type="submit">Delete</button> 
+
     </div>
   </div>
 </div>
