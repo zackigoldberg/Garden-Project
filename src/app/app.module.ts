@@ -10,15 +10,17 @@ import { AboutComponent } from './about/about.component';
 import { ProductComponent } from './product/product.component';
 import { DisplayPlantComponent } from './display-plant/display-plant.component';
 import { HomeComponent } from './home/home.component';
-
-import { from } from 'rxjs';
-import { AuthService } from './services/auth.service';
-import { DatabaseService } from './services/productservice.service';
 import { LoginComponent } from './login/login.component';
+
+import { DatabaseService } from './services/productservice.service';
+import { AuthService } from './services/auth.service';
+
+
 const routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent},
   { path: 'product', component: ProductComponent},
+  { path: 'login', component: LoginComponent}
 ];
 
 

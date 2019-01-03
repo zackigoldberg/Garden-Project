@@ -44,6 +44,10 @@ export class AuthService {
       this._router.navigate(['/login']);
 
     }
+
+    private setHeader(): HttpHeaders {
+      return new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('id_token')}`);
+    }
 }  
   
 
