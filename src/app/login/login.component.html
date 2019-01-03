@@ -1,0 +1,16 @@
+<h1>Admin Login</h1>
+<hr>
+<hr>
+
+<form #form="ngForm" (ngSubmit)="onSubmit(form)" [formGroup]="loginForm">
+  <div>
+    <div>
+        <Input  placeholder="Email" formControlName="email" type="email" required/>
+    </div>
+    <div>
+        <input  placeholder="Password" formControlName="password" type="password" required/>
+    </div>
+  </div>
+  <button class="nav-btn" color="primary" type="submit">Login</button>
+</form>
+<br>

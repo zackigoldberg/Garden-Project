@@ -1,0 +1,33 @@
+h2 {
+    color: rgb(36, 58, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+p {
+    color: rgb(36, 58, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    color: rgb(36, 58, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    block-size: 3em;
+}
+
+input {
+    color: rgb(36, 58, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea {
+    color: rgb(36, 58, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact {
+    text-align: center;
+}
