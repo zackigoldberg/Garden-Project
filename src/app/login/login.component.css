@@ -1,0 +1,28 @@
+h1 {
+    color: rgb(36, 58, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+.loginform {
+    text-align: center;
+
+}
+
+button {
+    color: rgb(36, 58, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    block-size: 3em;
+}
+
+input {
+    color: rgb(36, 58, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 20%;
+}
+
+img{
+    position: fixed;
+    margin-top: -220px;
+}
