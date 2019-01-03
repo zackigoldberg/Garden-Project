@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Token } from '/DotNetProjects/RedBadge/GardenProject/garden-project/src/app/models/Token';
+import { Token } from '../models/Token';
 import { Router } from '@angular/router';
 import { Observable,Subject } from 'rxjs';
 

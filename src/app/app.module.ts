@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
 
 import { DatabaseService } from './services/productservice.service';
 import { AuthService } from './services/auth.service';
+import { HttpClient } from '@angular/common/http';
 
 
 const routes = [
@@ -37,11 +38,12 @@ const routes = [
     BrowserModule,
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(
       routes
     )
   ],
-  providers: [AuthService,DatabaseService],
+  providers: [AuthService,DatabaseService,HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
