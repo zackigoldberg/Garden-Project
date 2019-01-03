@@ -2,18 +2,19 @@
  h2 {
     color: rgb(36, 58, 3);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 5em;
+    font-size: 2em;
     text-align: center;
  }
  
- p {
+ h1 {
     color: rgb(36, 58, 3);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 5em;
     text-align: center;
  }
 
  img{
     position: fixed;
-    left: 100px;
+    margin-top: -250px;
 }
+
