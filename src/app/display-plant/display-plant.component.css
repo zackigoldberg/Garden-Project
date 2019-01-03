@@ -1,0 +1,8 @@
+.productItem{
+    width: 275px;
+    margin: 30px;
+    position: relative;
+    display: inline-block;
+    clear: left;
+    border-color: rgba(36, 58, 3, .1) 
+}
