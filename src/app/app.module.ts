@@ -12,7 +12,9 @@ import { DisplayPlantComponent } from './display-plant/display-plant.component';
 import { HomeComponent } from './home/home.component';
 
 import { from } from 'rxjs';
-
+import { AuthService } from './services/auth.service';
+import { DatabaseService } from './services/productservice.service';
+import { LoginComponent } from './login/login.component';
 const routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent},
@@ -26,7 +28,8 @@ const routes = [
     AboutComponent,
     ProductComponent,
     DisplayPlantComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,7 @@ const routes = [
       routes
     )
   ],
-  providers: [],
+  providers: [AuthService,DatabaseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
